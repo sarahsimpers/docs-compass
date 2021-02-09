@@ -1,168 +1,106 @@
-.. _compass-index:
+:template: landing
 
-===============
-MongoDB Compass
-===============
+========================
+What is MongoDB Compass?
+========================
 
-.. default-domain:: mongodb
+.. introduction::
 
-.. contents:: On this page
-   :local:
-   :backlinks: none
-   :depth: 1
-   :class: singlecol
+   MongoDB Compass is a powerful GUI for querying, aggregating, and analyzing your MongoDB data in a visual environment.
+   Compass is free to use and source available, and can be run on macOS, Windows, and Linux.
 
-What is |compass|?
-------------------
+.. button:: Download Compass
+   :uri: /path/to/download
+   :class: left-column
 
-|compass| is the :abbr:`GUI (Graphical User Interface)` for MongoDB.
-|compass-short| allows you to analyze and understand the contents of
-your data without formal knowledge of MongoDB
-:manual:`query syntax </tutorial/query-documents>`. In addition to
-exploring your data in a visual environment, you can also use
-|compass-short| to :ref:`optimize query performance <explain-plans>`,
-:ref:`manage indexes <compass-indexes>`, and implement
-:ref:`document validation <validation>`.
+:doc:`View installation instructions <path/to/instructions>`
 
-Prerequisites
--------------
+.. image:: /path/to/image.png
+   :class: right-column
+   :alt: Alternate captioning
 
-To use |compass-short|, you must connect to an existing MongoDB 
-database. You can connect to:
+.. kicker:: What You Can Do
 
-- A MongoDB server that you have 
-  :manual:`installed locally </installation/>`, or
+Visually Explore Your Data
+--------------------------
 
-- A MongoDB |service| cluster.
+Explore some of the tasks Compass can help you accomplish, such as importing and managing data from an easy-to-navigate interface.
 
-.. include:: /includes/atlas-sample-data-note.rst
+.. tabs::
 
-.. _compass-and-community-eds:
+   .. tab:: Import Your Data
+      :tabid: import
 
-Available |compass-short| Editions
-----------------------------------
+      .. procedure::
 
-|compass-short| is offered in the following editions:
+         .. step:: Connect to Your Deployment
 
-.. list-table::
-   :header-rows: 1
-   :widths: 25 70
+            Connect to a MongoDB deployment hosted on MongoDB Atlas, or a deployment hosted locally on your own machine.
 
-   * - Edition
-     - Description
+	    :ref:`To learn more, see Connect to MongoDB<Connect to MongoDB>`
 
-   * - :guilabel:`Compass`
-     - Full version of MongoDB Compass, with all features and
-       capabilities.
+         .. step:: Import Your Data
 
-   * - :guilabel:`Compass Readonly`
-     - Limited strictly to read operations, with all
-       write and delete capabilities removed.
+	   Import data from CSV or JSON files into your MongoDB database.
 
-   * - :guilabel:`Compass Isolated`
-     - Does not initiate any network requests except to the MongoDB
-       server to which |compass-short| connects. This edition is
-       designed for highly secure environments.
-       
-       Isolated edition can perform DNS alias queries, such as looking
-       up A or SRV Records.
+           :ref:`To learn more, see Import and Export Data<Import and Export Data>`
 
-       Isolated edition does not:
+      .. image:: /path/to/image.png
+         :class: right-column
+         :alt: Alternate captioning
 
-       - Connect to third-party mapping services for
-         :ref:`schema analysis <schema-tab>`.
+   .. tab:: Query Your Data
+      :tabid: query
 
-       - Send analytics or crash reports.
-       
-       - Provide Intercom support.
+      Paragraph.
 
-MongoDB Compass is Source Available
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   .. tab:: Write aggregation pipelines
+      :tabid: write
 
-All versions of |compass| are source available and free to use. You can
-find the source repositories for |compass| at
-https://github.com/mongodb-js/compass/.
+      Paragraph.
 
-.. _compass-feature-table:
+   .. tab:: Run commands in shell
+      :tabid: run
 
-Capabilities of |compass-short| Editions
-----------------------------------------
+      Paragraph.
 
-The following feature chart can help you choose the edition to best
-suit your needs.
+.. kicker:: Related Products & Resources
 
-.. list-table::
-   :header-rows: 1
-   :widths: 40 15 15 15
+Go Further with Compass
+-----------------------
 
-   * -
-     - Compass
-     - Compass Readonly
-     - Compass Isolated
+Expand your knowledge of MongoDB by using Compass with other MongoDB products.
 
-   * - Interact with :ref:`documents <compass-documents>`,
-       :ref:`collections <collection-tab>`, and
-       :ref:`databases <database-tab>` with full CRUD functionality
-     - |checkmark|
-     - 
-     - |checkmark|
+.. card-group::
+   :columns: 3
+   :style: compact
 
-   * - Create and execute :ref:`queries <compass-query-bar>` and
-       :ref:`aggregation pipelines <compass-agg-builder>`
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
+   .. card::
+      :cta: Read Atlas docs
+      :url: https://www.url.com
+      :icon: /path/to/icon
+      :icon-alt: /path/to/icon-alt
 
-   * - Create and delete :ref:`indexes <compass-indexes>`
-     - |checkmark|
-     - 
-     - |checkmark|
+      Use Compass to connect to your Atlas cluster
 
-   * - View and optimize query performance with visual
-       :ref:`explain plans <explain-plans>`
-     - |checkmark|
-     - 
-     - |checkmark|
+   .. card::
+      :cta: Learn MongoDB Basics
+      :url: https://www.url.com
+      :icon: /path/to/icon
+      :icon-alt: /path/to/icon-alt
 
-   * - Kerberos, LDAP, and x.509 authentication
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
+      Learn MongoDB Basics with MongoDB University
 
-   * - :doc:`Schema Analysis </schema>`
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
+   .. card::
+      :cta: Read Server docs
+      :url: https://www.url.com
+      :icon: /path/to/icon
+      :icon-alt: /path/to/icon-alt
 
-   * - :doc:`Real Time Server Stats </performance>`
-     - |checkmark|
-     - |checkmark|
-     - |checkmark|
-
-   * - Create, delete and edit :ref:`document validation <validation>`
-       rules
-     - |checkmark|
-     - 
-     - |checkmark|
-
-   * - Error collection and crash reporting
-     - |checkmark|
-     - |checkmark|
-     -
-
+     Access more in-depth examples of querying data
 
 .. toctree::
    :titlesonly:
- 
-   /install
-   /connect
-   /instance
-   /manage-data
-   /import-export
-   /embedded-shell
-   /aggregation-pipeline-builder
-   /troubleshooting
-   /faq
-   /learn-more
-   /release-notes
-   /submit-feedback
+
+   Overview </index>
+
