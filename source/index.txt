@@ -15,7 +15,7 @@ What is MongoDB Compass?
 
 :doc:`View installation instructions <path/to/instructions>`
 
-.. image:: /path/to/image.png
+.. image:: /images/pink.png
    :class: right-column
    :alt: Alternate captioning
 
@@ -45,7 +45,7 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
 
            :ref:`To learn more, see Import and Export Data<Import and Export Data>`
 
-      .. image:: /path/to/image.png
+      .. image:: /images/plp-image.png
          :class: right-column
          :alt: Alternate captioning
 
@@ -77,25 +77,25 @@ Expand your knowledge of MongoDB by using Compass with other MongoDB products.
 
    .. card::
       :cta: Read Atlas docs
-      :url: https://www.url.com
-      :icon: /path/to/icon
-      :icon-alt: /path/to/icon-alt
+      :url: https://docs.mongodb.com
+      :icon: /images/icon.png
+      :icon-alt: /images/icon.png
 
       Use Compass to connect to your Atlas cluster
 
    .. card::
       :cta: Learn MongoDB Basics
-      :url: https://www.url.com
-      :icon: /path/to/icon
-      :icon-alt: /path/to/icon-alt
+      :url: https://docs.mongodb.com
+      :icon: /images/icon.png
+      :icon-alt: /images/icon.png
 
       Learn MongoDB Basics with MongoDB University
 
    .. card::
       :cta: Read Server docs
-      :url: https://www.url.com
-      :icon: /path/to/icon
-      :icon-alt: /path/to/icon-alt
+      :url: https://docs.mongodb.com
+      :icon: /images/icon.png
+      :icon-alt: /images/icon.png
 
      Access more in-depth examples of querying data
 
