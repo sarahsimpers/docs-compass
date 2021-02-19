@@ -10,10 +10,10 @@ What is MongoDB Compass?
    Compass is free to use and source available, and can be run on macOS, Windows, and Linux.
 
 .. button:: Download Compass
-   :uri: /path/to/download
+   :uri: /install
    :class: left-column
 
-:doc:`View installation instructions <path/to/instructions>`
+:doc:`View installation instructions <install>`
 
 .. image:: /images/pink.png
    :class: right-column
@@ -37,13 +37,13 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
 
             Connect to a MongoDB deployment hosted on MongoDB Atlas, or a deployment hosted locally on your own machine.
 
-	    :ref:`To learn more, see Connect to MongoDB<Connect to MongoDB>`
+	    :ref:`To learn more, see Connect to MongoDB<connect-run-compass>`
 
          .. step:: Import Your Data
 
 	   Import data from CSV or JSON files into your MongoDB database.
 
-           :ref:`To learn more, see Import and Export Data<Import and Export Data>`
+           :ref:`To learn more, see Import and Export Data<compass-import-export>`
 
       .. image:: /images/plp-image.png
          :class: right-column
@@ -76,31 +76,39 @@ Expand your knowledge of MongoDB by using Compass with other MongoDB products.
    :style: compact
 
    .. card::
-      :cta: Read Atlas docs
+      :headline: Read Atlas docs
+      :cta: Test cta
       :url: https://docs.mongodb.com
-      :icon: /images/icon.png
-      :icon-alt: /images/icon.png
 
       Use Compass to connect to your Atlas cluster
 
    .. card::
-      :cta: Learn MongoDB Basics
+      :headline: Learn MongoDB Basics
+      :cta: Test cta
       :url: https://docs.mongodb.com
-      :icon: /images/icon.png
-      :icon-alt: /images/icon.png
 
       Learn MongoDB Basics with MongoDB University
 
    .. card::
-      :cta: Read Server docs
+      :headline: Read Server docs
+      :cta: Test cta
       :url: https://docs.mongodb.com
-      :icon: /images/icon.png
-      :icon-alt: /images/icon.png
 
-     Access more in-depth examples of querying data
+      Access more in-depth examples of querying data
 
 .. toctree::
    :titlesonly:
 
    Overview </index>
-
+   /install
+   /connect
+   /instance
+   /manage-data
+   /import-export
+   /embedded-shell
+   /aggregation-pipeline-builder
+   /troubleshooting
+   /faq
+   /learn-more
+   /release-notes
+   /submit-feedback
