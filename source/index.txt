@@ -52,17 +52,17 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
    .. tab:: Query Your Data
       :tabid: query
 
-      Paragraph.
+      "Query Your Data" tab paragraph.
 
    .. tab:: Write aggregation pipelines
       :tabid: write
 
-      Paragraph.
+      "Write aggregation pipelines" tab paragraph.
 
    .. tab:: Run commands in shell
       :tabid: run
 
-      Paragraph.
+      "Run commands in a shell" tab paragraph.
 
 .. kicker:: Related Products & Resources
 
@@ -76,23 +76,26 @@ Expand your knowledge of MongoDB by using Compass with other MongoDB products.
    :style: compact
 
    .. card::
-      :headline: Read Atlas docs
-      :cta: Test cta
+      :cta: Read Atlas docs
       :url: https://docs.mongodb.com
+      :icon: /images/icon.png
+      :icon-alt: MongoDB Atlas icon
 
       Use Compass to connect to your Atlas cluster
 
    .. card::
-      :headline: Learn MongoDB Basics
-      :cta: Test cta
+      :cta: Learn MongoDB Basics
       :url: https://docs.mongodb.com
+      :icon: /images/icon.png
+      :icon-alt: MongoDB University icon
 
       Learn MongoDB Basics with MongoDB University
 
    .. card::
-      :headline: Read Server docs
-      :cta: Test cta
+      :cta: Read Server docs
       :url: https://docs.mongodb.com
+      :icon: /images/icon.png
+      :icon-alt: MongoDB Server icon
 
       Access more in-depth examples of querying data
 
