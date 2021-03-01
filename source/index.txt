@@ -1,4 +1,4 @@
-:template: landing
+:noprevnext:
 
 ========================
 What is MongoDB Compass?
