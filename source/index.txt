@@ -34,19 +34,13 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
 
       .. procedure::
 
-         .. step::
-
-            Connect to Your Deployment
-            --------------------------
+         .. step:: Connect to Your Deployment
 
             Connect to a MongoDB deployment hosted on MongoDB Atlas, or a deployment hosted locally on your own machine.
 
 	    :ref:`To learn more, see Connect to MongoDB<connect-run-compass>`
 
-         .. step::
-
-            Import Your Data
-            ----------------
+         .. step:: Import Your Data
 
 	    Import data from CSV or JSON files into your MongoDB database.
 
