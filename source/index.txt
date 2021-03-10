@@ -16,7 +16,7 @@ What is MongoDB Compass?
 
 :doc:`View installation instructions <install>`
 
-.. image:: /images/pink.png
+.. image:: /images/grey.png
    :class: right-column
    :alt: Alternate captioning
 
@@ -29,41 +29,89 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
 
 .. tabs::
 
-   .. tab:: Import Your Data
+   .. tab:: Import your data
       :tabid: import
 
       .. procedure::
 
-         .. step:: Connect to Your Deployment
+         .. step:: Connect to your deployment
 
             Connect to a MongoDB deployment hosted on MongoDB Atlas, or a deployment hosted locally on your own machine.
 
 	    :ref:`To learn more, see Connect to MongoDB<connect-run-compass>`
 
-         .. step:: Import Your Data
+         .. step:: Import your data
 
 	    Import data from CSV or JSON files into your MongoDB database.
 
             :ref:`To learn more, see Import and Export Data<compass-import-export>`
 
-      .. image:: /images/plp-image.png
+      .. image:: /images/import-your-data.png
          :class: right-column
          :alt: Alternate captioning
 
-   .. tab:: Query Your Data
+   .. tab:: Query your data
       :tabid: query
 
-      "Query Your Data" tab paragraph.
+      .. procedure::
 
-   .. tab:: Write aggregation pipelines
-      :tabid: write
+         .. step:: Insert documents into your collections
 
-      "Write aggregation pipelines" tab paragraph.
+            Paste documents into the JSON view, or manually insert documents using a field-by-field editor.
 
-   .. tab:: Run commands in shell
+            :ref:`To learn more, see Insert Documents<insert-documents>`
+
+         .. step:: Query your data
+
+            Write ad-hoc queries to filter your data. Explore trends and commonalities in your collections.
+
+            :ref:`To learn more, see Query Your Data<query-bar-filter>`
+
+      .. image:: /images/query-your-data.png
+         :class: right-column
+         :alt: Alternate captioning
+
+   .. tab:: Create aggregation pipelines
+      :tabid: create
+
+      .. procedure::
+
+         .. step:: Insert documents into your collections
+
+            Insert documents into your collections in two ways, JSON Mode and a Field-by-Field Editor.
+
+            :ref:`To learn more, see Insert Documents<insert-documents>`
+
+         .. step:: Create aggregation pipelines
+
+            Write aggregation pipelines that allow documents in a collection or view to pass through multiple stages where they are processed into a set of aggregated results.
+
+            :ref:`To learn more, see Aggregation Pipeline Builder<compass-agg-builder>`
+
+      .. image:: /images/create-aggregation-pipelines.png
+         :class: right-column
+         :alt: Alternate captioning
+
+   .. tab:: Run commands in the shell
       :tabid: run
 
-      "Run commands in a shell" tab paragraph.
+      .. procedure::
+
+         .. step:: Connect to your deployment
+
+            Connect to a MongoDB deployment hosted on MongoDB Atlas, or a deployment hosted locally on your own machine.
+
+	    :ref:`To learn more, see Connect to MongoDB<connect-run-compass>`
+
+         .. step:: Work with your data in the MongoDB shell
+
+            Use the embedded MongoDB Shell in Compass to control your data in an interactive JavaScript environment.
+
+            :ref:`To learn more, see Embedded MongoDB Shell<embedded-mongodb-shell>`
+
+      .. image:: /images/run-commands-in-the-shell.png
+         :class: right-column
+         :alt: Alternate captioning
 
 .. kicker:: Related Products & Resources
 
