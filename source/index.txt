@@ -47,7 +47,6 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
             :ref:`To learn more, see Import and Export Data<compass-import-export>`
 
       .. image:: /images/import-your-data.png
-         :class: right-column
          :alt: Alternate captioning
 
    .. tab:: Query your data
@@ -68,7 +67,6 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
             :ref:`To learn more, see Query Your Data<query-bar-filter>`
 
       .. image:: /images/query-your-data.png
-         :class: right-column
          :alt: Alternate captioning
 
    .. tab:: Create aggregation pipelines
@@ -89,7 +87,6 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
             :ref:`To learn more, see Aggregation Pipeline Builder<compass-agg-builder>`
 
       .. image:: /images/create-aggregation-pipelines.png
-         :class: right-column
          :alt: Alternate captioning
 
    .. tab:: Run commands in the shell
@@ -110,7 +107,6 @@ Explore some of the tasks Compass can help you accomplish, such as importing and
             :ref:`To learn more, see Embedded MongoDB Shell<embedded-mongodb-shell>`
 
       .. image:: /images/run-commands-in-the-shell.png
-         :class: right-column
          :alt: Alternate captioning
 
 .. kicker:: Related Products & Resources
